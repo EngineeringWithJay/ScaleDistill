@@ -1,0 +1,35 @@
+# Secrets
+.env
+.env.*
+*.token
+*token*
+
+# Model artifacts and training data
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.npz
+*.npy
+*.jsonl
+*.jsonl.gz
+checkpoints/
+datasets/
+cache/
+artifacts/
+
+# Logs and local results
+*.log
+logs/
+results/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
